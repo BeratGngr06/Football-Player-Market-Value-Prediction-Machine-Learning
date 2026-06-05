@@ -69,7 +69,7 @@ Modellerin başarısı varyans açıklama gücü (**$R^2$ Skoru**), ortalama sap
 | **Ortalama Cross Validation R² Skoru** | **0,6567** | 0,6488 |
 | **Cross Validation Standart Sapması** | 0,0354 | **0,0326** |
 
-### 💡 Son Yorum:
+### 💡Yorumlama:
 * **Gradient Boosting**, veri setindeki genel piyasa varyansını açıklama konusunda **%71,91** ile en yüksek kararlılığı sunan model olmuştur.
 * **XGBoost**, dahili regülasyon (L1/L2) mekanizmaları sayesinde transfer piyasasındaki "süperstarların" yarattığı uç değer (outlier) gürültülerini daha iyi baskılamış ve oyuncu başına ortalama mutlak hatayı (**5.738.599 €**) en düşük seviyeye indiren model olmuştur.
 * **5-Fold Cross-Validation (Çapraz Doğrulama)** analizlerinde standart sapmanın `0.03` bandında kalması, modellerin **Overfitting (Ezberleme)** yapmadığını  kanıtlar niteliktedir.
